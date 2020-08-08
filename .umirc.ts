@@ -67,8 +67,8 @@ const config: IConfig = {
     ],
     'umi-plugin-gh-pages',
   ],
-  base: 'deeply',
-  publicPath:'/deeply'
+  base: '/deeply/',
+  publicPath:'/deeply/'
 };
 export default config;
 
