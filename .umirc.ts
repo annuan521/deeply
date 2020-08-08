@@ -44,8 +44,10 @@ const config: IConfig = {
   ],
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
-    [
+    [ 
+
       'umi-plugin-react',
+      
       {
         antd: true,
         dva: {
@@ -64,8 +66,8 @@ const config: IConfig = {
           ],
         },
       },
+    'umi-plugin-gh-pages'
     ],
-    'umi-plugin-gh-pages',
   ],
   base: '/deeply/',
   publicPath:'/deeply/'
